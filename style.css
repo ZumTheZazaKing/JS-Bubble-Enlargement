@@ -1,0 +1,60 @@
+html{
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.bubbles{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: .5;
+    transition: 10s;
+    position: fixed;
+}
+
+#bubbleOne{
+    background-color: limegreen;
+    top: 15%;
+    left: 10%;
+}
+
+#bubbleTwo{
+    background-color: blue;
+    top: 50%;
+    left: 30%;
+
+}
+
+#bubbleThree{
+    background-color: crimson;
+    top: 30%;
+}
+
+#bubbleFour{
+    background-color: pink;
+    top: 70%;
+    left: 60%;
+}
+
+#bubbleFive{
+    background-color: orange;
+    top: 20%;
+    left: 80%;
+}
+
+#text{
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: darkcyan;
+    opacity: .3;
+}
